@@ -100,7 +100,7 @@ const Project = () => {
                 <a href={item.github} target="_blank">
                   GitHub
                 </a>
-                <p>
+                <label>
                   <div>
                     <span>{item.desc}</span>
                     <span>
@@ -110,7 +110,7 @@ const Project = () => {
                     </span>
                   </div>
                   <BsInfoCircle />
-                </p>
+                </label>
               </span>
             </div>
           </Element>
@@ -198,11 +198,11 @@ const Element = styled.li`
     display: flex;
     align-items: center;
   }
-  & div:nth-child(2) span p {
+  & div:nth-child(2) span label {
     height: 30px;
     width: 30px;
   }
-  & div:nth-child(2) span p div {
+  & div:nth-child(2) span label div {
     display: none;
     width: 350px;
     height: 320px;
@@ -216,27 +216,29 @@ const Element = styled.li`
     grid-template-rows: auto;
     align-items: flex-end;
   }
-  & div:nth-child(2) span p:hover {
+  & div:nth-child(2) span label:hover {
     div {
       display: grid;
     }
   }
-  & div:nth-child(2) span p div span {
+  & div:nth-child(2) span label div span {
     max-width: 100%;
     max-height: 100%;
   }
-  & div:nth-child(2) span p div span:nth-child(1) {
-    padding: 5px 20px;
+  & div:nth-child(2) span label div span:nth-child(1) {
+    padding: 5px 40px;
+    text-align: center;
     position: relative;
     top: -20px;
+    color: white;
   }
-  & div:nth-child(2) span p div span:nth-child(2) {
+  & div:nth-child(2) span label div span:nth-child(2) {
     display: flex;
     gap: 0;
     position: relative;
     top: -20px;
   }
-  & div:nth-child(2) span p div span:nth-child(2) img {
+  & div:nth-child(2) span label div span:nth-child(2) img {
     max-width: 100px;
     padding: 0;
     border-radius: 0;

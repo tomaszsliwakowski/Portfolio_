@@ -20,7 +20,7 @@ const Project = () => {
     {
       title: "Shop",
       img: port1,
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum culpa ea reprehenderit ullam alias fugiat repudiandae quo. Blanditiis, doloribus. Hic incidunt vel at sequi alias suscipit quia odit eos veritatis.",
+      desc: "Jest to projekt sklepu internetowego, w którym użyłem Javascript z Reaktem i CSS do stylizacji strony. Użyłem Redux do zarządzania danymi i bazy danych Firebase do uwierzytelniania i przechowywania danych.",
       tech: [html, css, javascript, reactjs, redux],
       github: "https://github.com/tomaszsliwakowski/Shop",
       demo: "https://tomaszsliwakowski.github.io/Shop/",
@@ -28,7 +28,7 @@ const Project = () => {
     {
       title: "FitLifeApp",
       img: port2,
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum culpa ea reprehenderit ullam alias fugiat repudiandae quo. Blanditiis, doloribus. Hic incidunt vel at sequi alias suscipit quia odit eos veritatis.",
+      desc: "Jest to projekt aplikacji wspierającej zdrowy styl życia. Chciałem stworzyć stronę internetową, którą będę mógł wykorzystywać w życiu codziennym.",
       tech: [html, css, javascript, reactjs],
       github: "https://github.com/tomaszsliwakowski/FitLifeApp",
       demo: "https://dazzling-kitsune-605aee.netlify.app/",
@@ -36,22 +36,22 @@ const Project = () => {
     {
       title: "WeatherApp",
       img: port3,
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum culpa ea reprehenderit ullam alias fugiat repudiandae quo. Blanditiis, doloribus. Hic incidunt vel at sequi alias suscipit quia odit eos veritatis.",
-      tech: [html, css, javascript],
+      desc: "Jest to aplikacja pogodowa zbudowana przy użyciu biblioteki React i Api.",
+      tech: [html, css, javascript, reactjs],
       github: "https://github.com/tomaszsliwakowski/WeatherApp",
       demo: "https://tomaszsliwakowski.github.io/WeatherApp/",
     },
     {
       title: "FitApp",
       img: port4,
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum culpa ea reprehenderit ullam alias fugiat repudiandae quo. Blanditiis, doloribus. Hic incidunt vel at sequi alias suscipit quia odit eos veritatis.",
+      desc: "Jest to projekt aplikacji wspierającej zdrowy tryb życia. Strona została zbudowana przy użyciu Javascript, HTML, SCSS, CSS.",
       tech: [html, css, javascript, scss],
       github: "https://github.com/tomaszsliwakowski/Shop",
     },
     {
       title: "Calculator",
       img: port5,
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum culpa ea reprehenderit ullam alias fugiat repudiandae quo. Blanditiis, doloribus. Hic incidunt vel at sequi alias suscipit quia odit eos veritatis.",
+      desc: "Jest to prosty kalkulator",
       tech: [html, css, javascript],
       github: "https://github.com/tomaszsliwakowski/Calculator",
       demo: "https://tomaszsliwakowski.github.io/Calculator/",
@@ -59,7 +59,7 @@ const Project = () => {
     {
       title: "Snake",
       img: port6,
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum culpa ea reprehenderit ullam alias fugiat repudiandae quo. Blanditiis, doloribus. Hic incidunt vel at sequi alias suscipit quia odit eos veritatis.",
+      desc: "Gra Snake",
       tech: [html, css, javascript],
       github: "https://github.com/tomaszsliwakowski/snake",
       demo: "https://tomaszsliwakowski.github.io/snake/",
@@ -67,7 +67,7 @@ const Project = () => {
     {
       title: "ToDoList",
       img: port7,
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum culpa ea reprehenderit ullam alias fugiat repudiandae quo. Blanditiis, doloribus. Hic incidunt vel at sequi alias suscipit quia odit eos veritatis.",
+      desc: "Prosta ToDoLista",
       tech: [html, css, javascript],
       github: "https://github.com/tomaszsliwakowski/ToDoList",
       demo: "https://tomaszsliwakowski.github.io/ToDoList/",
@@ -75,7 +75,7 @@ const Project = () => {
     {
       title: "JumpGame",
       img: port8,
-      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum culpa ea reprehenderit ullam alias fugiat repudiandae quo. Blanditiis, doloribus. Hic incidunt vel at sequi alias suscipit quia odit eos veritatis.",
+      desc: "Gra w której musimy unikać duszka podstakując nad nim",
       tech: [html, css, javascript],
       github: "https://github.com/tomaszsliwakowski/Jump_Game",
       demo: "https://tomaszsliwakowski.github.io/Jump_Game/",
@@ -224,6 +224,7 @@ const Element = styled.li`
   & div:nth-child(2) span label div span {
     max-width: 100%;
     max-height: 100%;
+    margin: 0 auto;
   }
   & div:nth-child(2) span label div span:nth-child(1) {
     padding: 5px 40px;
@@ -234,7 +235,7 @@ const Element = styled.li`
   }
   & div:nth-child(2) span label div span:nth-child(2) {
     display: flex;
-    gap: 0;
+    gap: 12px;
     position: relative;
     top: -20px;
   }

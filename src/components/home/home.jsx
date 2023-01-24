@@ -22,10 +22,12 @@ const Home = () => {
         <ElementInfo>
           <h3>Front-end Developer</h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-            officia et quo minima assumenda iure dolore, explicabo
-            necessitatibus? Corrupti laudantium explicabo omnis hic, repudiandae
-            quam nisi ad minima quae ut.
+            Witaj jestem ambitnym samoukiem programowania chciałbym zostać
+            Front-end Developerem ponieważ lubie to robić , jest to interesujące
+            i rozwojowe ponieważ codziennie mogę poznawać nowe narzędzia które
+            sprawiają że moja praca staje się szybsza i efektywniejsza. Projekty
+            w moim portfolio powstały podasz nauki i większość z nich jest w
+            całości zaprojektowana i napisana przeze mnie.
           </p>
           <ButtonScroll href="#project">
             <AiOutlineArrowDown />
@@ -127,8 +129,9 @@ const ElementInfo = styled.div`
   }
   & p {
     color: white;
-    padding: 30px;
+    padding: 40px;
     text-align: center;
+    line-height: 22px;
   }
 `;
 

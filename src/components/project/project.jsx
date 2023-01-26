@@ -267,9 +267,6 @@ const Element = styled.li`
     cursor: help;
     background-color: purple;
     border-radius: 2em;
-    @media (max-width: 768px) {
-      display: none;
-    }
   }
 
   & div:nth-child(2) span svg:hover {

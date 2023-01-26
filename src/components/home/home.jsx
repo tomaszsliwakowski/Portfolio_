@@ -22,9 +22,9 @@ const Home = () => {
         <ElementInfo>
           <h3>Front-end Developer</h3>
           <p>
-            Witaj jestem ambitnym samoukiem programowania chciałbym zostać
-            Front-end Developerem ponieważ lubie to robić , jest to interesujące
-            i rozwojowe ponieważ codziennie mogę poznawać nowe narzędzia które
+            Witaj, jestem ambitnym samoukiem programowania chciałbym zostać
+            Front-end Developerem ponieważ lubie to robić oraz jest to dla mnie
+            interesujące. Codziennie mogę poznawać nowe narzędzia które
             sprawiają że moja praca staje się szybsza i efektywniejsza. Projekty
             w moim portfolio powstały podasz nauki i większość z nich jest w
             całości zaprojektowana i napisana przeze mnie.

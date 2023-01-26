@@ -201,6 +201,9 @@ const Element = styled.li`
   & div:nth-child(2) span label {
     height: 30px;
     width: 30px;
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
   & div:nth-child(2) span label div {
     display: none;

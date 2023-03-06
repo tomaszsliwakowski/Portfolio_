@@ -6,7 +6,7 @@ import javascript from "../../assets/javascript.svg";
 import reactjs from "../../assets/react.svg";
 import redux from "../../assets/redux.svg";
 import scss from "../../assets/scss.svg";
-import typescript from "../../assets/typescript.svg"
+import typescript from "../../assets/typescript.svg";
 import port1 from "../../assets/portfolio1.jpg";
 import port2 from "../../assets/portfolio7.jpg";
 import port3 from "../../assets/portfolio2.jpg";
@@ -15,7 +15,8 @@ import port5 from "../../assets/portfolio3.jpg";
 import port6 from "../../assets/portfolio5.png";
 import port7 from "../../assets/portfolio6.jpg";
 import port8 from "../../assets/portfolio8.jpg";
-import port9 from "../../assets/socialb.jpg"
+import port9 from "../../assets/socialb.jpg";
+import port10 from "../../assets/passgen.png";
 import { BsInfoCircle } from "react-icons/bs";
 const Project = () => {
   const ProjectData = [
@@ -31,9 +32,17 @@ const Project = () => {
       title: "SocialBook",
       img: port9,
       desc: "Jest to projekt aplikacji dającej możliwość dzielenia się z innymi swoimi doświadczeniami",
-      tech: [html, css, javascript, reactjs,typescript],
+      tech: [html, css, javascript, reactjs, typescript],
       github: "https://github.com/tomaszsliwakowski/SocialBook",
       demo: "https://tomaszsliwakowski.github.io/SocialBook/",
+    },
+    {
+      title: "PasswordGenerator",
+      img: port10,
+      desc: "Generator hasła",
+      tech: [html, scss, javascript, reactjs],
+      github: "https://github.com/tomaszsliwakowski/PasswordGenerator",
+      demo: "https://tomaszsliwakowski.github.io/PasswordGenerator/",
     },
     {
       title: "FitLifeApp",

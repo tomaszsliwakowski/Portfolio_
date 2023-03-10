@@ -65,7 +65,7 @@ const Project = () => {
       img: port4,
       desc: "Jest to projekt aplikacji wspierającej zdrowy tryb życia. Strona została zbudowana przy użyciu Javascript, HTML, SCSS, CSS.",
       tech: [html, css, javascript, scss],
-      github: "https://github.com/tomaszsliwakowski/Shop",
+      github: "https://github.com/tomaszsliwakowski/FitApp",
     },
     {
       title: "Calculator",
